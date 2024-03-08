@@ -32,6 +32,10 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId); //symbol
+console.log(typeof heros); // object
+console.log(typeof myObj); // object
+console.log(typeof myFunction); //function
+
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
