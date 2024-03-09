@@ -3,6 +3,7 @@ const repoCount = 50
 
 // console.log(name + repoCount + " Value");
 
+//string interpolation ,, ${}: placeholder
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('hitesh-hc-com')
@@ -19,6 +20,7 @@ console.log(gameName.indexOf('t'));
 const newString = gameName.substring(0, 4)
 console.log(newString);
 
+//in substring we can not give negative value (if we give it will start from 0) but in slice we can 
 const anotherString = gameName.slice(-8, 4)
 console.log(anotherString);
 
