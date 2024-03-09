@@ -2,6 +2,9 @@ const score = 400
 // console.log(score); //400
 // console.log(score.toString()); //400
 
+// Behind the scenes, JavaScript temporarily converts the primitive values to objects, calls the method, and then converts them back to primitives. This process is called autoboxing or boxing.
+
+// So while Number and String are not strictly classes or objects themselves, they have associated object wrappers that allow you to access methods and properties typically associated with objects.
 const balance = new Number(100)
 // console.log(balance); //[Number:100]
 
