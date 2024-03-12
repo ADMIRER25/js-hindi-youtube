@@ -53,6 +53,8 @@ function addone(num){
 
 
 addTwo(5)
+
+//expression
 const addTwo = function(num){
     return num + 2
 }
