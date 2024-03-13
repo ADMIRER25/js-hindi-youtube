@@ -23,6 +23,12 @@ if (Object.keys(emptyObj).length === 0) {
     console.log("Object is empty");
 }
 
+/*
+false == 0 // true
+false == '' // true
+0 == '' //true
+*/
+
 // Nullish Coalescing Operator (??): null undefined
 
 let val1;
