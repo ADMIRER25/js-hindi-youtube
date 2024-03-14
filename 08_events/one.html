@@ -37,7 +37,7 @@
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
-    //     e.stopPropagation()
+    //     e.stopPropagation() // to prevent event bubbling
     // }, false)
     
     // document.getElementById('google').addEventListener('click',function(e){
@@ -45,6 +45,10 @@
     //     e.stopPropagation()
     //     console.log("google clicked");
     // }, false)
+
+    //event propagation:  two context -> 1.event public(false):event bubbling works from bottom to top and 2.event capturing(true) : works from top to bottom
+
+    //event bubbling
    
     
     document.querySelector('#images').addEventListener('click', function(e){
