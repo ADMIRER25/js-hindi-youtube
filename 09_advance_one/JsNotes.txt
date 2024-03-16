@@ -1,0 +1,31 @@
+Javascript (default js)
+    -->Synchrounous
+    -->Single Thread
+Execution Context: global execution context
+    -->execute one line of code at a time
+    -->each operation waits for the last one to complete before executing
+    |-->console log->1
+    |-->console log->2 
+
+    and we have call stack and memory heap
+
+Blocking Code
+    -->block the flow of program
+    ->Read File Sync
+    
+Non-Blocking Code
+    -->Does not block execution
+    -->Read File Async
+
+Web API responsibility:
+    -->Do the work and remind after certain period of time
+
+
+ Execution of js:
+    --> program executed
+    --> call stack build
+    --> in call stack global execution context build
+    -->load all the functions and when execution of function complete it will pop out from the queue
+    -->
+
+
